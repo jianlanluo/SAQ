@@ -79,6 +79,19 @@ python -m vqn.conservative_sac_main \
 <img src="./plots/saqiql_adroit.png" width="60%" style="text-align:center;"/>
 
 
+## Citation BibTex
+
+If you found this code useful, consider citing the following paper:
+```
+@article{luo2023actionquantized,
+  author    = {Jianlan Luo and Perry Dong and Jeffrey Wu and Aviral Kumar and Xinyang Geng and Sergey Levine},
+  title     = {Action-Quantized Offline Reinforcement Learning for Robotic Skill Learning},
+  booktitle   = {7th Annual Conference on Robot Learning},
+  year      = {2023},
+  url       = {https://openreview.net/forum?id=n9lew97SAn},
+}
+```
+
 ## Credits
 The implementation of SAQ-CQL builds on [CQL](https://github.com/young-geng/JaxCQL)
 The implementation of SAQ-IQL builds on [IQL](https://github.com/ikostrikov/implicit_q_learning)
