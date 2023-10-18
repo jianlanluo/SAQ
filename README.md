@@ -45,14 +45,6 @@ python -m vqn.vqiql_main \
 All available command options can be seen in vqn/vqiql_main.py and vqn/vqiql.py.
 
 
-For full working examples, you can run a sweep of SAQ-CQL, SAQ-IQL, and SAQ-BC on D4RL gym using the following command:
-```
-bash scripts/vqcql_gym.sh
-bash scripts/vqiql_gym.sh
-bash scripts/vqbc_gym.sh
-```
-
-
 This repository supports both environments in D4RL(https://arxiv.org/abs/2004.07219) and Robomimic(https://arxiv.org/abs/2108.03298).
 
 
@@ -73,6 +65,13 @@ python -m vqn.conservative_sac_main \
 ```
 
 ## Example Runs
+
+For full working examples, you can run a sweep of SAQ-CQL on D4RL kitchen or SAQ-IQL on D4RL adroit using the following command:
+```
+bash scripts/vqcql_kitchen.sh
+bash scripts/vqiql_adroit.sh
+```
+This will generate the plots below.
 
 <img src="./plots/saqcql_kitchen.png" width="60%" style="text-align:center;"/>
 
