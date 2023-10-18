@@ -1,5 +1,5 @@
 # SAQ: Action-Quantized Offline Reinforcement Learning for Robotic Skill Learning
-A simple and modular implementation of the SAQ algorithm in Jax and Flax.
+A simple and modular implementation of the SAQ algorithm in Jax and Flax. For more information, visit the website at saqrl.github.io.
 
 
 ## Installation
